@@ -4,7 +4,7 @@
   "description": "Least recentrly accessed cache",
   "main": "lru.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "author": "sakiko-2",
   "license": "MIT",
