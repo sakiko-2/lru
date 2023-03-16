@@ -33,5 +33,14 @@ export class LRUCache {
     createObject(key, value);
   }
 
-  delete(key) {}
+  delete(key) {
+    const obj = this.getObject(this.cache, key);
+
+    if (obj !== undefined) {
+      this.cache.splice(this.cache.indexOf(obj), 1);
+      return key;
+    } else {
+      return -1;
+    }
+  }
 }
