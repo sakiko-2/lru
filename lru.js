@@ -5,7 +5,12 @@ export class LRUCache {
   }
 
   isKeyValid(key) {
-    if (key != undefined | typeof key === "number" | key >= 0 | key <= 1000) {
+    if (
+      (key != undefined) |
+      (typeof key === "number") |
+      (key >= 0) |
+      (key <= 1000)
+    ) {
       return true;
     } else {
       return false;
@@ -13,7 +18,12 @@ export class LRUCache {
   }
 
   isValuevalid(value) {
-    if (value != undefined | typeof value === "number" | value >= 0 | value <= 100000) {
+    if (
+      (value != undefined) |
+      (typeof value === "number") |
+      (value >= 0) |
+      (value <= 100000)
+    ) {
       return true;
     } else {
       return false;
