@@ -1,7 +1,7 @@
 {
   "name": "lru",
   "version": "1.0.0",
-  "description": "Least recentrly accessed cache",
+  "description": "Least recentrly used cache",
   "main": "lru.js",
   "scripts": {
     "test": "jest"
