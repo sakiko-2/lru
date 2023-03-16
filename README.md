@@ -1,1 +1,1 @@
-# Leased Recently Used cache
+# Least Recently Used cache
