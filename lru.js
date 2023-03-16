@@ -6,9 +6,9 @@ export class LRUCache {
 
   isKeyValid(key) {
     if (
-      (key != undefined) |
-      (typeof key === "number") |
-      (key >= 0) |
+      (key != undefined) &&
+      (typeof key === "number") &&
+      (key >= 0) &&
       (key <= 1000)
     ) {
       return true;
@@ -19,9 +19,9 @@ export class LRUCache {
 
   isValuevalid(value) {
     if (
-      (value != undefined) |
-      (typeof value === "number") |
-      (value >= 0) |
+      (value != undefined) &&
+      (typeof value === "number") &&
+      (value >= 0) &&
       (value <= 100000)
     ) {
       return true;
